@@ -12,7 +12,8 @@ Clone this repository https://github.com/GadgetReactor/pyHS100 to your directory
 Clone my repository.
 
 Write in terminal ```pyhs100```. You should get something like this:
-```$ pyhs100
+```
+$ pyhs100
 No --bulb nor --plug given, discovering..
 Discovering devices for 3 seconds
 == My Smart Plug - HS110(EU) ==
