@@ -52,6 +52,7 @@ while True:
         {
             "measurement": table,
             "fields": {
+                "id": i,
                 "voltage_mv": voltage_mv,
                 "current_ma": current_ma,
                 "power_mw": power_mw
