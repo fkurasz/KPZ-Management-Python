@@ -5,7 +5,6 @@ Collecting data from Tp-Link HS110 and sending them to the database.
 ## How to use ##
 ### Requirements ###
 You will need influx database.
-```sudo apt-get install influxdb```
 
 Clone this repository https://github.com/GadgetReactor/pyHS100 to your directory.
 
@@ -31,7 +30,7 @@ Location:     {'latitude': XXXX, 'longitude': XXXX}
 Current state: {'total': 133.082, 'power': 100.418681, 'current': 0.510967, 'voltage': 225.600477}
 ```
 
-Copy IP address which is 192.168.10.10 in this case and enter it on line 15 in tplink-get-measurements.py.
+Copy IP address which is 192.168.10.10 in this case and enter it on line 16 in tplink-get-measurements.py.
 
 Now you can run the program by typing ```python3 tplink-get-measurements.py``` in the terminal.
 
